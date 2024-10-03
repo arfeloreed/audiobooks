@@ -22,6 +22,6 @@ const images = [
   { img: silentPlanet, title: "The Silent Planet" },
 ];
 
-const url = "http://127.0.0.1:5000/";
+const url = import.meta.env.VITE_SERVER_URL;
 
 export { images, url };
